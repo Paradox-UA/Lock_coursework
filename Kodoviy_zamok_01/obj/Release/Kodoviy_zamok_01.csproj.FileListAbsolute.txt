@@ -1,0 +1,20 @@
+I:\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Release\Kodoviy_zamok_01.exe.config
+I:\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Release\Kodoviy_zamok_01.exe
+I:\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Release\Kodoviy_zamok_01.pdb
+I:\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Release\Kodoviy_zamok_01.csprojResolveAssemblyReference.cache
+I:\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Release\Kodoviy_zamok_01.Panel2.resources
+I:\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Release\Kodoviy_zamok_01.Panel1.resources
+I:\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Release\Kodoviy_zamok_01.Properties.Resources.resources
+I:\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Release\Kodoviy_zamok_01.csproj.GenerateResource.Cache
+I:\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Release\Kodoviy_zamok_01.exe
+I:\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Release\Kodoviy_zamok_01.pdb
+d:\2 курс (1 полусеместр)\ООП\Курсовая\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Release\Kodoviy_zamok_01.exe.config
+d:\2 курс (1 полусеместр)\ООП\Курсовая\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Release\Kodoviy_zamok_01.exe
+d:\2 курс (1 полусеместр)\ООП\Курсовая\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Release\Kodoviy_zamok_01.pdb
+d:\2 курс (1 полусеместр)\ООП\Курсовая\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Release\Kodoviy_zamok_01.exe
+d:\2 курс (1 полусеместр)\ООП\Курсовая\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Release\Kodoviy_zamok_01.pdb
+d:\2 курс (1 полусеместр)\ООП\Курсовая\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Release\Kodoviy_zamok_01.csprojResolveAssemblyReference.cache
+d:\2 курс (1 полусеместр)\ООП\Курсовая\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Release\Kodoviy_zamok_01.Panel2.resources
+d:\2 курс (1 полусеместр)\ООП\Курсовая\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Release\Kodoviy_zamok_01.Panel1.resources
+d:\2 курс (1 полусеместр)\ООП\Курсовая\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Release\Kodoviy_zamok_01.Properties.Resources.resources
+d:\2 курс (1 полусеместр)\ООП\Курсовая\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Release\Kodoviy_zamok_01.csproj.GenerateResource.Cache

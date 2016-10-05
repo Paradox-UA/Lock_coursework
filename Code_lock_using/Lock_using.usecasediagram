@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="417e47be-c638-4de9-a895-fb80f422d36e" name="Lock_using" linkedPackageId="e5341c9c-7b6d-4b0a-afd5-c7328326ba9e" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="497ab410-056e-4508-8386-32318f1d042f">
+      <profileInstance Id="e27671bd-f1f4-45c0-819f-1a6f77fbc26c" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="10587ee6-ac02-4984-bf0f-c28c6f4c18f1">
+      <profileInstance Id="f4e8927e-165b-496a-9916-62af8eb08e55" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="1aabc843-83a7-4dbc-b3f0-e1d403848654" name="Особа1" isAbstract="false" isLeaf="false">
+        <description>Особа , яка знаходиться ззовні охоронюваного приміщення та взаємодіє з панелю №1</description>
+        <elementDefinition Id="3f1ce8c6-d02a-4dd8-8a12-34acc0016af5" />
+        <targetEnds>
+          <association Id="50351aa5-d197-4eff-a40a-c73412a19f78" isDerived="false" sourceEndRoleName="Особа1" targetEndRoleName="Ввести пароль" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f68ef25f-8896-4474-a269-28b263789b0a" LastKnownName="Ввести пароль" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="655be658-d4a0-4fd3-aba9-ff38c78d7ead" name="Особа1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="41efaf6d-5e8e-41de-823a-31a17ecb4599" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dd88e981-a54f-4588-a8ba-3ac54ee11cb1" name="Ввести пароль" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ee3d9c95-dc9d-4c76-8ba9-077b3df5524b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="eba03d40-1437-4c1e-9fa1-d3571b7efbdb" />
+          </association>
+          <association Id="e1c71768-fe1f-4a51-a172-cf8b80fa64d1" isDerived="false" sourceEndRoleName="Особа1" targetEndRoleName="Натиснути кнопку &quot;Call&quot;" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="16fd6ccd-71fd-4e3b-84e9-de6bb245b81b" LastKnownName="Натиснути кнопку &quot;Call&quot;" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="65e9325e-0a0f-4be0-8886-cd9b99f576b1" name="Особа1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="45058fec-6456-4337-9908-e1a4d17cd896" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ed6f9877-ca0c-44b4-be23-b89f9d862c18" name="Натиснути кнопку &quot;Call&quot;" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="37983671-618e-48d5-8a1b-c08a0684b1c4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="765a846c-8329-4b94-b293-ef863f8401c6" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f68ef25f-8896-4474-a269-28b263789b0a" name="Ввести пароль" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0969564c-18b6-48fc-ac31-9992c3ff95dc" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="de4d0c5f-b028-4d6e-adbb-9e71c3a7c9db" name="Відчинити замок" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b84119f2-01c2-4805-96bb-468f6b71d5d5" />
+        <additions>
+          <include Id="dad118df-14f8-48d3-9b05-897bdd5eea6d">
+            <useCaseMoniker Id="f68ef25f-8896-4474-a269-28b263789b0a" LastKnownName="Ввести пароль" />
+            <elementDefinition Id="ebb8cdb5-7c4a-441d-adfd-9468ce3d5491" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="16fd6ccd-71fd-4e3b-84e9-de6bb245b81b" name="Натиснути кнопку &quot;Call&quot;" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1e492bd3-42c2-46fe-87a2-6913e01cbfbe" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="24613d3c-114c-4a20-9f00-3a7acd62c77d" name="Заводські налаштування" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e2fc4596-e09a-4d6a-b854-6daf720bece9" />
+        <extendedCases>
+          <extend Id="fddc891a-f7de-47e9-9ed5-20aad8474795">
+            <useCaseMoniker Id="de4d0c5f-b028-4d6e-adbb-9e71c3a7c9db" LastKnownName="Відчинити замок" />
+            <elementDefinition Id="97716313-f3e5-4236-9fee-0ac95da065eb" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9c256873-21a4-4856-ba1d-16860d2fa4ef" name="Натиснути кнопку &quot;Сontrol&quot;" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8954b8fc-12c3-41ac-bc54-e6c237a3e668" />
+        <additions>
+          <include Id="1206f3b0-8270-425c-9c98-758d861189e3">
+            <useCaseMoniker Id="de4d0c5f-b028-4d6e-adbb-9e71c3a7c9db" LastKnownName="Відчинити замок" />
+            <elementDefinition Id="55811d70-642a-487d-b096-157880587f45" />
+          </include>
+          <include Id="720755dd-07fe-43bf-9ea0-572829047348">
+            <useCaseMoniker Id="24613d3c-114c-4a20-9f00-3a7acd62c77d" LastKnownName="Заводські налаштування" />
+            <elementDefinition Id="046c9090-de82-4bce-a4ec-67732c312b4b" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="228b8c97-370f-4f35-a1dc-3921c77746a7" name="Ввести пароль 1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="268eeeeb-3483-4d54-b109-e7452080b458" />
+        <additions>
+          <include Id="e2627d9c-a3cf-4972-93eb-73f1831eef13">
+            <useCaseMoniker Id="9c256873-21a4-4856-ba1d-16860d2fa4ef" LastKnownName="Натиснути кнопку &quot;Сontrol&quot;" />
+            <elementDefinition Id="c5204c62-844c-461e-89eb-5a7a80958fac" />
+          </include>
+          <include Id="414b4790-7f77-4eb4-8e75-a853defe1656">
+            <useCaseMoniker Id="cd902b49-77cd-4e1c-90b3-b53f84ad76e6" LastKnownName="Натиснути кнопку &quot;Call&quot;1" />
+            <elementDefinition Id="2782b05b-e6ce-44f1-9e80-323c1699ec5d" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="cd902b49-77cd-4e1c-90b3-b53f84ad76e6" name="Натиснути кнопку &quot;Call&quot;1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fe1e6f69-1ad2-4a12-aa16-d1b0cecd5175" />
+        <extendedCases>
+          <extend Id="40263edf-d447-4920-922b-27176cb23f77">
+            <useCaseMoniker Id="9c256873-21a4-4856-ba1d-16860d2fa4ef" LastKnownName="Натиснути кнопку &quot;Сontrol&quot;" />
+            <elementDefinition Id="6b0ac2ad-4953-4c2d-bd77-02bb390e803e" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3477d9ae-138e-4e09-84a3-aa01533c7f96" name="Ввести новий пароль доступа" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="247999ca-d9aa-4e66-a30c-4ef426bb98f3" />
+        <additions>
+          <include Id="384fb850-04f1-49fe-81ca-0810657dbb40">
+            <useCaseMoniker Id="09c448f0-dce4-49a2-8c1f-9e4303add05f" LastKnownName="Оповістити про необхідність вводу нового паролю" />
+            <elementDefinition Id="5c2a9904-a14f-46ed-82a0-678858da78a6" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="09c448f0-dce4-49a2-8c1f-9e4303add05f" name="Оповістити про необхідність вводу нового паролю" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="412300c7-fc7c-4451-8692-4097efbe461f" />
+        <additions>
+          <include Id="d7d31b64-8fdb-472c-859f-655e3d25ce00">
+            <useCaseMoniker Id="228b8c97-370f-4f35-a1dc-3921c77746a7" LastKnownName="Ввести пароль 1" />
+            <elementDefinition Id="aae9f96f-43bb-4ef4-a7d7-6dad75aea199" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="c4bee496-cc73-4e0a-a683-fde1d35fa981" name="Особа1" isAbstract="false" isLeaf="false">
+        <description>Особа, яка знаходиться ззовні охоронюваного приміщення та взаємодіє з панеллю №1</description>
+        <elementDefinition Id="b6205028-0dd5-4f87-ad99-15418d2df2f2" />
+        <targetEnds>
+          <association Id="444e5d7b-5a4c-4742-afa0-50af7d4dea2b" isDerived="false" sourceEndRoleName="Особа1" targetEndRoleName="Відчинити двері" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0bbf4253-7910-4aaf-b55c-c7bb7c15c8ab" LastKnownName="Відчинити двері" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="018e47c9-2ab3-4bcf-b2be-6b761117d907" name="Особа1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e526d70b-46eb-43fb-8625-d9f5553d6ea6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f62ceb5e-a17e-4f5a-85f8-6e7599de4735" name="Відчинити двері" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="90d6efb6-94c1-4fa5-950b-632860c4141d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="81a34e70-e7b0-42ef-9a5e-b19890336a8e" />
+          </association>
+          <association Id="c7704caa-34f6-4a51-a1d1-1b3ead44aa04" isDerived="false" sourceEndRoleName="Особа1" targetEndRoleName="Подзвонити всередину охоронюваного приміщення" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="27e854b5-de08-48bd-a87b-33b42c8c0e24" LastKnownName="Подзвонити всередину охоронюваного приміщення" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="98651dd1-4020-4f8c-ad37-6bc862f30a72" name="Особа1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1d9709ee-f662-4939-82ca-83d1afbc97ba" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="03d63ccd-8d0b-4ece-b92f-c9df060b2817" name="Подзвонити всередину охоронюваного приміщення" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="184259c4-d92d-4938-ba5e-090caf5986e6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ce432033-25f0-4958-ab35-f3c0a6e8e249" />
+          </association>
+          <association Id="7184ecf8-cc00-443a-bc8b-b54458319f9a" isDerived="false" sourceEndRoleName="Особа1" targetEndRoleName="Примінити заводські налаштування" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b344b143-0648-4647-bbc4-2256240dc592" LastKnownName="Застосувати заводські налаштування" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="40df0810-a1bb-4d5f-8223-1f3725e1e06a" name="Особа1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ac4db355-4cdf-4260-8e7b-2880a5b5c2ab" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9b5a1e3c-fb27-40ef-ba77-29f3359be10c" name="Примінити заводські налаштування" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="86ef1b27-c703-4633-9c7c-c235d8a4f07a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5dfcd385-338b-4fd2-b610-9fab847a0ee9" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0bbf4253-7910-4aaf-b55c-c7bb7c15c8ab" name="Відчинити двері" isAbstract="false" isLeaf="false">
+        <description>Основний потік подій:
+Передумови: було введено пароль доступу.
+
+1)Замок відчиняється , оповіщуючи про це користувача звуковим сигналом та надписом на дисплеї.
+2)Таймер замка відлічує 5 секунд, після чого, якщо не натиснуто кнопки "Call" чи "Control" зачиняється.
+
+Альтернативний потік подій №1:
+
+Передумови: було введено хибний пароль доступу.
+
+Перехід до основного потоку подій "Заборонити вхід"
+
+Альтернативний потік подій №2:
+
+Передумови: після пункту 1 основного потоку подій, під час роботи таймера з пункту 2, було натиснено кнопку "Call" чи "Control"
+
+Перехід до "Змінити пароль доступу".
+</description>
+        <elementDefinition Id="e43f8401-342b-413f-9b9f-f4e22cd68b54" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="27e854b5-de08-48bd-a87b-33b42c8c0e24" name="Подзвонити всередину охоронюваного приміщення" isAbstract="false" isLeaf="false">
+        <description>Основний потік подій:
+Передумови:
+1) Пароль не було введено, або пароль було введено хибно.
+2) Замок зачинено.
+3)Було натиснено кнопку "Call".
+
+Усередину приміщення подається звуковий сигнал за допомогою дзвінка.
+</description>
+        <elementDefinition Id="08b34129-2945-4cfc-ae15-355598d40d98" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="dfacc540-4114-4384-97b5-77a371849030" name="Змінити пароль доступу" isAbstract="false" isLeaf="false">
+        <description>Основний потік подій:
+
+Передумови: натиснуто кнопку "Control" та введено пароль контролю.
+
+1) Користувач оповіщується звуковим сигналом та надписом на дисплеї про необхідність ввести новий пароль доступу.
+2)Після введення користувачем нового пароля, замок оповіщує користувача про успішність заміни налаштувань звуком та надписом на дисплеї.
+3)Таймер замка відлічує 5 секунд та закриває замок.
+
+Альтернативний потік подій:
+
+Передумови : натиснуто кнопку "Control" та введено хибний пароль контролю.
+
+Перехід до "Заборонити зміну паролю".</description>
+        <elementDefinition Id="77a03f19-242c-4cb4-965b-8986ed851005" />
+        <additions>
+          <include Id="51de3ce9-2c58-45fb-a91f-93dbf9fef420">
+            <useCaseMoniker Id="0bbf4253-7910-4aaf-b55c-c7bb7c15c8ab" LastKnownName="Відчинити двері" />
+            <elementDefinition Id="3e0cbd5c-ddce-483c-8fec-e6fd1a98bb40" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b344b143-0648-4647-bbc4-2256240dc592" name="Застосувати заводські налаштування" isAbstract="false" isLeaf="false">
+        <description>Основний потік подій:
+Передумови: було введено пароль для застосування заводських налаштувань.
+
+1)Користувач оповіщується звуковим сигналом та надписом на дисплеї, про можливість застосування заводських налаштувань.
+2)Користувач підтверджує дію, натискаючи кнопку "Control".
+3)Замок повертається до заводських налаштувань.
+
+Альтернативний потік подій:
+Передумови: було введено хибний пароль або, після пунктів 1 і 2 основного потоку подій , користувач не підтверджує на протязі 5 секунд дію,
+натисненням кнопки "Control".
+
+1)Користувач оповіщується звуковим сигналом та надписом на дисплеї, про хибність введення паролю.
+2)Замок не відчиняється та залишається при поточних налаштуваннях.</description>
+        <elementDefinition Id="49ee0c47-7168-47a2-82d6-d8878fa3bea2" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6007a061-e85f-4e34-9ab1-cc695d186f0e" name="Змінити пароль контролю" isAbstract="false" isLeaf="false">
+        <description>Основний потік подій:
+
+Передумови: натиснуто кнопку "Call" та введено пароль контролю.
+
+1) Користувач оповіщується звуковим сигналом та надписом на дисплеї про необхідність ввести новий пароль контролю.
+2)Після введення користувачем нового пароля, замок оповіщує користувача про успішність заміни налаштувань звуком та надписом на дисплеї.
+3)Таймер замка відлічує 5 секунд та закриває замок.
+
+Альтернативний потік подій:
+
+Передумови : натиснуто кнопку "Call" та введено хибний пароль контролю.
+
+Перехід до "Заборонити зміну паролю".
+</description>
+        <elementDefinition Id="67b244f2-0e13-400d-a0da-fbb0ff937122" />
+        <additions>
+          <include Id="d2ea5e10-5a63-4545-95c1-15f83dd9b7e9">
+            <useCaseMoniker Id="0bbf4253-7910-4aaf-b55c-c7bb7c15c8ab" LastKnownName="Відчинити двері" />
+            <elementDefinition Id="db9f0eca-3987-4f92-bbfa-fd2531b59893" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="20d478fe-313b-46e7-b2dd-37c08227bce9" name="Заборонити вхід" isAbstract="false" isLeaf="false">
+        <description>Основний потік подій:
+
+Передумови: було введено хибний пароль доступу.
+
+1)Користувач оповіщується звуковим сигналом та надписом на дисплеї, про хибність введення паролю.
+2)Замок не відчиняється.
+</description>
+        <elementDefinition Id="77400cc7-4ed2-4122-bc42-dbf6fedaa669" />
+        <extendedCases>
+          <extend Id="a6219824-33c3-46ba-a5f9-f08abc42eb3b">
+            <useCaseMoniker Id="0bbf4253-7910-4aaf-b55c-c7bb7c15c8ab" LastKnownName="Відчинити двері" />
+            <elementDefinition Id="75cf2bd8-ce30-4bca-8071-3918587c9705" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d49fe8f8-3a12-4d11-882e-2c6f2c6eea60" name="Заборонити зміну пароля" isAbstract="false" isLeaf="false">
+        <description>Основний потік подій:
+
+Передумови: натиснуто кнопки "Call" чи "Control" та введено хибний пароль доступу.
+
+1)Користувач оповіщується звуковим сигналом та надписом на дисплеї про хибність введення пароля контролю.
+2)Таймер замка відлічує 5 секунд та зачиняє замок, замок залишається при поточних налаштуваннях.</description>
+        <elementDefinition Id="0b9de9c7-5527-4be3-a74f-628dd9ea2831" />
+        <extendedCases>
+          <extend Id="a43ee39e-a0c4-4438-8023-fd0b69a30785">
+            <useCaseMoniker Id="6007a061-e85f-4e34-9ab1-cc695d186f0e" LastKnownName="Змінити пароль контролю" />
+            <elementDefinition Id="78747a63-6457-4608-8759-78dafbb48300" />
+          </extend>
+          <extend Id="3c8c49ee-7fbd-4e8f-8b46-86e64d02be1d">
+            <useCaseMoniker Id="dfacc540-4114-4384-97b5-77a371849030" LastKnownName="Змінити пароль доступу" />
+            <elementDefinition Id="d3c14f89-e4ce-478c-afc5-1f6b3c228a72" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="b9ab3985-5a2e-4572-b260-2481d810bbf9" name="Особа2" isAbstract="false" isLeaf="false">
+        <description>Особа,  яка знаходиться усередині охоронюваного приміщення та взаємодіє з панеллю №2</description>
+        <elementDefinition Id="31ec1e49-630b-4bae-bc3d-e00cd573202a" />
+        <targetEnds>
+          <association Id="24b1c634-cfcd-42b1-99ec-ce504cad5919" isDerived="false" sourceEndRoleName="Особа2" targetEndRoleName="Відчинити двері1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="66d6512b-d6b9-4a67-8c6d-f6f3b91645a7" LastKnownName="Відчинити двері1" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8501a834-0445-4b48-ac1a-3748188cc037" name="Особа2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2a166d27-ceb6-4338-a019-ea3f77b4186e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="019f442c-1fc3-446d-887b-6230afc0075a" name="Відчинити двері1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fd05b70e-40e4-4c3a-8a78-cbbce169bc66" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1bf99a20-018f-4887-abe3-d616ad9dc49a" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="66d6512b-d6b9-4a67-8c6d-f6f3b91645a7" name="Відчинити двері1" isAbstract="false" isLeaf="false">
+        <description>Основний потік подій:
+
+Передумови: замок зачинено та натиснуто кнопку "Open".
+
+1)Замок відчиняється , оповіщуючи про це користувача звуковим сигналом та надписом на дисплеї.
+2)Таймер замка відлічує 5 секунд, після чого замок зачиняється.
+</description>
+        <elementDefinition Id="0b6cdd66-3f1d-4033-b5c8-6a8c32817f1c" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="e5341c9c-7b6d-4b0a-afd5-c7328326ba9e" name="Code_lock_using">
+    <elementDefinition Id="69f7a43b-380c-4e78-92e3-d7600748c1c8" />
+  </package>
+</useCaseModelRoot>

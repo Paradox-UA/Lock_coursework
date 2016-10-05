@@ -1,0 +1,2389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="69f7a43b-380c-4e78-92e3-d7600748c1c8"
+  name="Code_lock_using" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="3f1ce8c6-d02a-4dd8-8a12-34acc0016af5"
+        name="Особа1"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Особа , яка знаходиться ззовні охоронюваного приміщення та взаємодіє з панелю №1</description>
+        <targetEnds>
+          <association
+            Id="eba03d40-1437-4c1e-9fa1-d3571b7efbdb"
+            isDerived="false"
+            sourceEndRoleName="Особа1"
+            targetEndRoleName="Ввести пароль"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0969564c-18b6-48fc-ac31-9992c3ff95dc"
+              LastKnownName="Ввести пароль"
+              LastKnownLocation="Code_lock_using.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="41efaf6d-5e8e-41de-823a-31a17ecb4599"
+                  name="Особа1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ee3d9c95-dc9d-4c76-8ba9-077b3df5524b"
+                  name="Ввести пароль"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="42cbf3ee-59e5-4a4f-a914-6feaa1723eed"
+            isDerived="false"
+            sourceEndRoleName="Особа1"
+            targetEndRoleName="Подзвонити всередину приміщення"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="560bd6dd-9fed-4794-a775-2d6e68c1a129"
+              LastKnownName="Подзвонити всередину приміщення"
+              LastKnownLocation="Code_lock_using.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="09e0cceb-b26f-4d1b-8ae7-c554560fa3e2"
+                  name="Особа1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cd9f8d4d-d8ca-4f4b-8091-041cfb71e1bc"
+                  name="Подзвонити всередину приміщення"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="765a846c-8329-4b94-b293-ef863f8401c6"
+            isDerived="false"
+            sourceEndRoleName="Особа1"
+            targetEndRoleName="Натиснути кнопку &quot;Call&quot;"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1e492bd3-42c2-46fe-87a2-6913e01cbfbe"
+              LastKnownName="Натиснути кнопку &quot;Call&quot;"
+              LastKnownLocation="Code_lock_using.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="45058fec-6456-4337-9908-e1a4d17cd896"
+                  name="Особа1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="37983671-618e-48d5-8a1b-c08a0684b1c4"
+                  name="Натиснути кнопку &quot;Call&quot;"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0969564c-18b6-48fc-ac31-9992c3ff95dc"
+        name="Ввести пароль"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="560bd6dd-9fed-4794-a775-2d6e68c1a129"
+        name="Подзвонити всередину приміщення"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b84119f2-01c2-4805-96bb-468f6b71d5d5"
+        name="Відчинити замок"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="ebb8cdb5-7c4a-441d-adfd-9468ce3d5491">
+            <useCaseMoniker
+              Id="0969564c-18b6-48fc-ac31-9992c3ff95dc"
+              LastKnownName="Ввести пароль"
+              LastKnownLocation="Code_lock_using.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="de2f83df-f15c-4bbf-9641-1569287fb1d2"
+        name="Заборонити вхід"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="5c35f5ee-f879-4a93-a52c-b61cd99fe55d">
+            <useCaseMoniker
+              Id="b84119f2-01c2-4805-96bb-468f6b71d5d5"
+              LastKnownName="Відчинити замок"
+              LastKnownLocation="Code_lock_using.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1e492bd3-42c2-46fe-87a2-6913e01cbfbe"
+        name="Натиснути кнопку &quot;Call&quot;"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e2fc4596-e09a-4d6a-b854-6daf720bece9"
+        name="Заводські налаштування"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="97716313-f3e5-4236-9fee-0ac95da065eb">
+            <useCaseMoniker
+              Id="b84119f2-01c2-4805-96bb-468f6b71d5d5"
+              LastKnownName="Відчинити замок"
+              LastKnownLocation="Code_lock_using.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8954b8fc-12c3-41ac-bc54-e6c237a3e668"
+        name="Натиснути кнопку &quot;Сontrol&quot;"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="55811d70-642a-487d-b096-157880587f45">
+            <useCaseMoniker
+              Id="b84119f2-01c2-4805-96bb-468f6b71d5d5"
+              LastKnownName="Відчинити замок"
+              LastKnownLocation="Code_lock_using.uml" />
+          </include>
+          <include
+            Id="046c9090-de82-4bce-a4ec-67732c312b4b">
+            <useCaseMoniker
+              Id="e2fc4596-e09a-4d6a-b854-6daf720bece9"
+              LastKnownName="Заводські налаштування"
+              LastKnownLocation="Code_lock_using.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="268eeeeb-3483-4d54-b109-e7452080b458"
+        name="Ввести пароль 1"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="c5204c62-844c-461e-89eb-5a7a80958fac">
+            <useCaseMoniker
+              Id="8954b8fc-12c3-41ac-bc54-e6c237a3e668"
+              LastKnownName="Натиснути кнопку &quot;Сontrol&quot;"
+              LastKnownLocation="Code_lock_using.uml" />
+          </include>
+          <include
+            Id="2782b05b-e6ce-44f1-9e80-323c1699ec5d">
+            <useCaseMoniker
+              Id="fe1e6f69-1ad2-4a12-aa16-d1b0cecd5175"
+              LastKnownName="Натиснути кнопку &quot;Call&quot;1"
+              LastKnownLocation="Code_lock_using.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fe1e6f69-1ad2-4a12-aa16-d1b0cecd5175"
+        name="Натиснути кнопку &quot;Call&quot;1"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="6b0ac2ad-4953-4c2d-bd77-02bb390e803e">
+            <useCaseMoniker
+              Id="8954b8fc-12c3-41ac-bc54-e6c237a3e668"
+              LastKnownName="Натиснути кнопку &quot;Сontrol&quot;"
+              LastKnownLocation="Code_lock_using.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="247999ca-d9aa-4e66-a30c-4ef426bb98f3"
+        name="Ввести новий пароль доступа"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="5c2a9904-a14f-46ed-82a0-678858da78a6">
+            <useCaseMoniker
+              Id="412300c7-fc7c-4451-8692-4097efbe461f"
+              LastKnownName="Оповістити про необхідність вводу нового паролю"
+              LastKnownLocation="Code_lock_using.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="412300c7-fc7c-4451-8692-4097efbe461f"
+        name="Оповістити про необхідність вводу нового паролю"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="aae9f96f-43bb-4ef4-a7d7-6dad75aea199">
+            <useCaseMoniker
+              Id="268eeeeb-3483-4d54-b109-e7452080b458"
+              LastKnownName="Ввести пароль 1"
+              LastKnownLocation="Code_lock_using.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="b6205028-0dd5-4f87-ad99-15418d2df2f2"
+        name="Особа1"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Особа, яка знаходиться ззовні охоронюваного приміщення та взаємодіє з панеллю №1</description>
+        <targetEnds>
+          <association
+            Id="81a34e70-e7b0-42ef-9a5e-b19890336a8e"
+            isDerived="false"
+            sourceEndRoleName="Особа1"
+            targetEndRoleName="Відчинити двері"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e43f8401-342b-413f-9b9f-f4e22cd68b54"
+              LastKnownName="Відчинити двері"
+              LastKnownLocation="Code_lock_using.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e526d70b-46eb-43fb-8625-d9f5553d6ea6"
+                  name="Особа1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="90d6efb6-94c1-4fa5-950b-632860c4141d"
+                  name="Відчинити двері"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ce432033-25f0-4958-ab35-f3c0a6e8e249"
+            isDerived="false"
+            sourceEndRoleName="Особа1"
+            targetEndRoleName="Подзвонити всередину охоронюваного приміщення"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="08b34129-2945-4cfc-ae15-355598d40d98"
+              LastKnownName="Подзвонити всередину охоронюваного приміщення"
+              LastKnownLocation="Code_lock_using.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1d9709ee-f662-4939-82ca-83d1afbc97ba"
+                  name="Особа1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="184259c4-d92d-4938-ba5e-090caf5986e6"
+                  name="Подзвонити всередину охоронюваного приміщення"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5dfcd385-338b-4fd2-b610-9fab847a0ee9"
+            isDerived="false"
+            sourceEndRoleName="Особа1"
+            targetEndRoleName="Примінити заводські налаштування"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="49ee0c47-7168-47a2-82d6-d8878fa3bea2"
+              LastKnownName="Застосувати заводські налаштування"
+              LastKnownLocation="Code_lock_using.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ac4db355-4cdf-4260-8e7b-2880a5b5c2ab"
+                  name="Особа1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="86ef1b27-c703-4633-9c7c-c235d8a4f07a"
+                  name="Примінити заводські налаштування"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e43f8401-342b-413f-9b9f-f4e22cd68b54"
+        name="Відчинити двері"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Основний потік подій:
+Передумови: було введено пароль доступу.
+
+1)Замок відчиняється , оповіщуючи про це користувача звуковим сигналом та надписом на дисплеї.
+2)Таймер замка відлічує 5 секунд, після чого, якщо не натиснуто кнопки "Call" чи "Control" зачиняється.
+
+Альтернативний потік подій №1:
+
+Передумови: було введено хибний пароль доступу.
+
+Перехід до основного потоку подій "Заборонити вхід"
+
+Альтернативний потік подій №2:
+
+Передумови: після пункту 1 основного потоку подій, під час роботи таймера з пункту 2, було натиснено кнопку "Call" чи "Control"
+
+Перехід до "Змінити пароль доступу".
+</description>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="08b34129-2945-4cfc-ae15-355598d40d98"
+        name="Подзвонити всередину охоронюваного приміщення"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Основний потік подій:
+Передумови:
+1) Пароль не було введено, або пароль було введено хибно.
+2) Замок зачинено.
+3)Було натиснено кнопку "Call".
+
+Усередину приміщення подається звуковий сигнал за допомогою дзвінка.
+</description>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="77a03f19-242c-4cb4-965b-8986ed851005"
+        name="Змінити пароль доступу"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Основний потік подій:
+
+Передумови: натиснуто кнопку "Control" та введено пароль контролю.
+
+1) Користувач оповіщується звуковим сигналом та надписом на дисплеї про необхідність ввести новий пароль доступу.
+2)Після введення користувачем нового пароля, замок оповіщує користувача про успішність заміни налаштувань звуком та надписом на дисплеї.
+3)Таймер замка відлічує 5 секунд та закриває замок.
+
+Альтернативний потік подій:
+
+Передумови : натиснуто кнопку "Control" та введено хибний пароль контролю.
+
+Перехід до "Заборонити зміну паролю".</description>
+        <additions>
+          <include
+            Id="3e0cbd5c-ddce-483c-8fec-e6fd1a98bb40">
+            <useCaseMoniker
+              Id="e43f8401-342b-413f-9b9f-f4e22cd68b54"
+              LastKnownName="Відчинити двері"
+              LastKnownLocation="Code_lock_using.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="49ee0c47-7168-47a2-82d6-d8878fa3bea2"
+        name="Застосувати заводські налаштування"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Основний потік подій:
+Передумови: було введено пароль для застосування заводських налаштувань.
+
+1)Користувач оповіщується звуковим сигналом та надписом на дисплеї, про можливість застосування заводських налаштувань.
+2)Користувач підтверджує дію, натискаючи кнопку "Control".
+3)Замок повертається до заводських налаштувань.
+
+Альтернативний потік подій:
+Передумови: було введено хибний пароль або, після пунктів 1 і 2 основного потоку подій , користувач не підтверджує на протязі 5 секунд дію,
+натисненням кнопки "Control".
+
+1)Користувач оповіщується звуковим сигналом та надписом на дисплеї, про хибність введення паролю.
+2)Замок не відчиняється та залишається при поточних налаштуваннях.</description>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="67b244f2-0e13-400d-a0da-fbb0ff937122"
+        name="Змінити пароль контролю"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Основний потік подій:
+
+Передумови: натиснуто кнопку "Call" та введено пароль контролю.
+
+1) Користувач оповіщується звуковим сигналом та надписом на дисплеї про необхідність ввести новий пароль контролю.
+2)Після введення користувачем нового пароля, замок оповіщує користувача про успішність заміни налаштувань звуком та надписом на дисплеї.
+3)Таймер замка відлічує 5 секунд та закриває замок.
+
+Альтернативний потік подій:
+
+Передумови : натиснуто кнопку "Call" та введено хибний пароль контролю.
+
+Перехід до "Заборонити зміну паролю".
+</description>
+        <additions>
+          <include
+            Id="db9f0eca-3987-4f92-bbfa-fd2531b59893">
+            <useCaseMoniker
+              Id="e43f8401-342b-413f-9b9f-f4e22cd68b54"
+              LastKnownName="Відчинити двері"
+              LastKnownLocation="Code_lock_using.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="77400cc7-4ed2-4122-bc42-dbf6fedaa669"
+        name="Заборонити вхід"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Основний потік подій:
+
+Передумови: було введено хибний пароль доступу.
+
+1)Користувач оповіщується звуковим сигналом та надписом на дисплеї, про хибність введення паролю.
+2)Замок не відчиняється.
+</description>
+        <extendedCases>
+          <extend
+            Id="75cf2bd8-ce30-4bca-8071-3918587c9705">
+            <useCaseMoniker
+              Id="e43f8401-342b-413f-9b9f-f4e22cd68b54"
+              LastKnownName="Відчинити двері"
+              LastKnownLocation="Code_lock_using.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0b9de9c7-5527-4be3-a74f-628dd9ea2831"
+        name="Заборонити зміну пароля"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Основний потік подій:
+
+Передумови: натиснуто кнопки "Call" чи "Control" та введено хибний пароль доступу.
+
+1)Користувач оповіщується звуковим сигналом та надписом на дисплеї про хибність введення пароля контролю.
+2)Таймер замка відлічує 5 секунд та зачиняє замок, замок залишається при поточних налаштуваннях.</description>
+        <extendedCases>
+          <extend
+            Id="78747a63-6457-4608-8759-78dafbb48300">
+            <useCaseMoniker
+              Id="67b244f2-0e13-400d-a0da-fbb0ff937122"
+              LastKnownName="Змінити пароль контролю"
+              LastKnownLocation="Code_lock_using.uml" />
+          </extend>
+          <extend
+            Id="d3c14f89-e4ce-478c-afc5-1f6b3c228a72">
+            <useCaseMoniker
+              Id="77a03f19-242c-4cb4-965b-8986ed851005"
+              LastKnownName="Змінити пароль доступу"
+              LastKnownLocation="Code_lock_using.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="31ec1e49-630b-4bae-bc3d-e00cd573202a"
+        name="Особа2"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Особа,  яка знаходиться усередині охоронюваного приміщення та взаємодіє з панеллю №2</description>
+        <targetEnds>
+          <association
+            Id="1bf99a20-018f-4887-abe3-d616ad9dc49a"
+            isDerived="false"
+            sourceEndRoleName="Особа2"
+            targetEndRoleName="Відчинити двері1"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0b6cdd66-3f1d-4033-b5c8-6a8c32817f1c"
+              LastKnownName="Відчинити двері1"
+              LastKnownLocation="Code_lock_using.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2a166d27-ceb6-4338-a019-ea3f77b4186e"
+                  name="Особа2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fd05b70e-40e4-4c3a-8a78-cbbce169bc66"
+                  name="Відчинити двері1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0b6cdd66-3f1d-4033-b5c8-6a8c32817f1c"
+        name="Відчинити двері1"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Основний потік подій:
+
+Передумови: замок зачинено та натиснуто кнопку "Open".
+
+1)Замок відчиняється , оповіщуючи про це користувача звуковим сигналом та надписом на дисплеї.
+2)Таймер замка відлічує 5 секунд, після чого замок зачиняється.
+</description>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ef8ab057-d349-4c87-bc61-ec61937c7310"
+        name="Lock"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="3f0e80fa-c4a7-4898-b54e-40055c72b515"
+            isDerived="false"
+            sourceEndRoleName="Lock"
+            targetEndRoleName="Memory"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f306bb54-4af1-4c1b-9a78-c3148cecd8ef"
+              LastKnownName="Memory"
+              LastKnownLocation="Code_lock_using.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5fac17fe-9a99-454c-8374-283bcf85f4f9"
+                  name="Lock"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8a81f267-8b63-4d7e-b9ec-e7bf14669a33"
+                  name="Memory"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="35f08008-6544-4086-acbe-5200b10b0d39"
+            isDerived="false"
+            sourceEndRoleName="Lock"
+            targetEndRoleName="Bell"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="494c3bdd-5bea-483a-a4e4-2466aec30a4b"
+              LastKnownName="Bell"
+              LastKnownLocation="Code_lock_using.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="13a7bcc1-02c7-474a-91a1-ff7c939b52cf"
+                  name="Lock"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="644689a5-cf70-451e-b94d-c828346bff52"
+                  name="Bell"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="23c43119-afc1-4a95-bbf4-781cd390b185"
+            isDerived="false"
+            sourceEndRoleName="Lock"
+            targetEndRoleName="Mechanism"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="73fad913-9407-4e2b-9c7c-bff0ed8ba9d6"
+              LastKnownName="Mechanism"
+              LastKnownLocation="Code_lock_using.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7a8c4c23-7114-43a8-b988-2dcb9797be3b"
+                  name="Lock"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="94a5e418-a512-40fc-b1d6-4f0541841ca6"
+                  name="Mechanism"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="40eb9418-f931-44fa-86e5-89d3351e2d43"
+            name="memory"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="f306bb54-4af1-4c1b-9a78-c3148cecd8ef"
+                LastKnownName="Memory"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3f226eb7-59b9-4da8-a5d8-aff569b519d2"
+            name="mechanism"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="73fad913-9407-4e2b-9c7c-bff0ed8ba9d6"
+                LastKnownName="Mechanism"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ac32c8ca-66d6-4468-aca6-be49b6a23bf2"
+            name="bell"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="494c3bdd-5bea-483a-a4e4-2466aec30a4b"
+                LastKnownName="Bell"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d5af265f-503b-4bc3-af2a-157ccf8c6ff1"
+            name="Lock"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="a3869c6a-cb08-450a-ba3f-51adfc0067bb"
+            name="Lock"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="494c3bdd-5bea-483a-a4e4-2466aec30a4b"
+        name="Bell"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="48eb1459-9eae-4f13-9a6c-a610366c19ec"
+            name="status"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="90c62f0b-2567-4c61-9b6e-1115174980df"
+                LastKnownName="bool"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f4f4cdaf-97af-4505-a568-0b8a7bff71fd"
+            name="Call_ring"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="6baf866a-dc47-4ee9-aee9-b07f6ddd3589"
+                LastKnownName="SoundPlayer"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="6c56eebe-3268-4f15-8e2e-838e622ba0b5"
+            name="Bell"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="f9ecdc1e-84fa-4526-ae70-f134046eb28c"
+            name="Action_ring"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5d5ded3b-d38c-468a-b7ee-a1baba6f2e6e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d9b540b3-f0ad-4a28-bf83-153036e963be"
+                      LastKnownName="void"
+                      LastKnownLocation="Code_lock_using.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="07737037-ae6d-46b4-a91f-ce9ec24d334d"
+            name="Bell"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f16941e8-28e6-44db-9358-58a0448a6b8a"
+        name="Dynamic"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="35c6fda7-2ed7-48db-a691-11023e25d33b">
+            <classMoniker
+              Id="f306bb54-4af1-4c1b-9a78-c3148cecd8ef"
+              LastKnownName="Memory"
+              LastKnownLocation="Code_lock_using.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="546f6fec-6b89-4cd7-adf9-f178db68f80c"
+            name="Dynamic"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="1b9bca24-700d-4862-a0ea-014e2de78cc3"
+            name="Dynamic"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="d217c50f-dc34-4eba-88d8-aee797e0c2a0"
+            name="Play"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2080db2d-720c-4009-8a91-cd7ac4772e9f"
+                  name="SoundPlayer"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b29cef77-c15a-4556-aefb-d373a0372fde"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d9b540b3-f0ad-4a28-bf83-153036e963be"
+                      LastKnownName="void"
+                      LastKnownLocation="Code_lock_using.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f306bb54-4af1-4c1b-9a78-c3148cecd8ef"
+        name="Memory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="46012238-9e20-45b5-b163-f6bc14447f8f"
+            name="factory_reset"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="ad99eafe-c3c2-4c77-b838-0f7b8e1d1aa5"
+                LastKnownName="int[]"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="78e7cfdd-0af4-4867-896d-d7c162ba70a7"
+            name="entrance_code"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="ad99eafe-c3c2-4c77-b838-0f7b8e1d1aa5"
+                LastKnownName="int[]"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ed1d79d0-215e-44ba-8060-438737292da9"
+            name="access_code"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="ad99eafe-c3c2-4c77-b838-0f7b8e1d1aa5"
+                LastKnownName="int[]"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="385e9760-56a9-46c3-958e-4d0114c233c2"
+            name="dopusk"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="6baf866a-dc47-4ee9-aee9-b07f6ddd3589"
+                LastKnownName="SoundPlayer"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="24f67f5d-3da8-4afa-b24b-7600b5af7fe1"
+            name="nedopusk"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="fc3a7341-f573-4d71-afa1-c6c259ce70f7"
+                LastKnownName="Soundplayer"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8859016e-1c18-4d18-897e-7b65cb175623"
+            name="factory"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="6baf866a-dc47-4ee9-aee9-b07f6ddd3589"
+                LastKnownName="SoundPlayer"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e502fd1b-c061-4246-a037-a2a92dab1a7e"
+            name="factory"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="6baf866a-dc47-4ee9-aee9-b07f6ddd3589"
+                LastKnownName="SoundPlayer"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2e5ed003-8f42-4159-b023-71b1ff1f770d"
+            name="smena"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="6baf866a-dc47-4ee9-aee9-b07f6ddd3589"
+                LastKnownName="SoundPlayer"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="cb7ad397-c797-4f8a-8588-9fd5e04effc2"
+            name="Memory"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="aae4e6e5-8e34-40a8-a91b-2e29d33d394a"
+            name="Factory_status"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="60f04b47-e1cf-4735-9e75-c3f79954fa5a"
+                  name="int[]"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="28b9717c-7086-47f5-aacc-b14c5cfd0c8a"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="90c62f0b-2567-4c61-9b6e-1115174980df"
+                      LastKnownName="bool"
+                      LastKnownLocation="Code_lock_using.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2fef8fd2-b9b8-420d-b3c1-82778ac62d2a"
+            name="Entrance_status"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="431b5558-3dc3-4251-ad17-c6b1afcc9812"
+                  name="int[]"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d010b76b-5fed-4cd2-b2ff-dcff456a7f6b"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="90c62f0b-2567-4c61-9b6e-1115174980df"
+                      LastKnownName="bool"
+                      LastKnownLocation="Code_lock_using.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a32f068a-6f24-4ed0-8e90-a00be921b981"
+            name="Access_status"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d9ab1289-bb3f-4da8-b05b-66f40a3cb97e"
+                  name="int[]"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="36143172-58c9-4d73-8d39-a6eebc308378"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="90c62f0b-2567-4c61-9b6e-1115174980df"
+                      LastKnownName="bool"
+                      LastKnownLocation="Code_lock_using.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5628239a-4c97-4101-a4cb-5631221bdc9e"
+            name="Memory"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="73fad913-9407-4e2b-9c7c-bff0ed8ba9d6"
+        name="Mechanism"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="a6c3fc6b-3aa3-4c2d-ba52-2cbf6b91edec"
+            name="status"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="90c62f0b-2567-4c61-9b6e-1115174980df"
+                LastKnownName="bool"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="3a039bc3-18de-4b81-85e4-8f3af1935c63"
+            name="Mechanism"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="6420e8e4-ab21-4201-8296-255bc02b0b6c"
+            name="Mechanism"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2cf81eb7-271e-4473-ad3f-1434a371379f"
+        name="Panel1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="1751e4d5-e48a-4039-9474-f7800b79c032"
+            isDerived="false"
+            sourceEndRoleName="Panel1"
+            targetEndRoleName="Dynamic"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f16941e8-28e6-44db-9358-58a0448a6b8a"
+              LastKnownName="Dynamic"
+              LastKnownLocation="Code_lock_using.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5172743f-605e-4e2e-8dc8-4f4e4453e2c2"
+                  name="Panel1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ff9d800c-a2c1-47ca-b392-fe8f11bdc16f"
+                  name="Dynamic"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="990be340-9019-4d84-8e92-b3264784b029"
+            isDerived="false"
+            sourceEndRoleName="Panel1"
+            targetEndRoleName="Lock"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="ef8ab057-d349-4c87-bc61-ec61937c7310"
+              LastKnownName="Lock"
+              LastKnownLocation="Code_lock_using.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2e834841-4ddb-4532-832e-2e2b8e39f52e"
+                  name="Panel1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d56a5287-2916-4fa1-8921-6b4aea193d02"
+                  name="Lock"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="73d9a666-5b57-4fee-abf7-cf2dc609664e"
+            name="lock1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="ef8ab057-d349-4c87-bc61-ec61937c7310"
+                LastKnownName="Lock"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f50c5ec0-75a2-47b5-9b31-92c1b45428fe"
+            name="input_mas"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="adbad8a5-d1fd-4a6a-b273-0283d4853449"
+                LastKnownName="List&lt;int&gt;"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="389079e7-3be5-4206-a607-a199a0d9c671"
+            name="control_action"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="90c62f0b-2567-4c61-9b6e-1115174980df"
+                LastKnownName="bool"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a84e4cb9-8cee-418c-a47b-0728575d0241"
+            name="call_action"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="90c62f0b-2567-4c61-9b6e-1115174980df"
+                LastKnownName="bool"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0bee9674-4f4f-43ba-98f2-d6a03b6f2ce2"
+            name="factory_settings"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="90c62f0b-2567-4c61-9b6e-1115174980df"
+                LastKnownName="bool"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0e379078-38c9-4bab-a228-c7acdf0453ed"
+            name="dynamic1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="f16941e8-28e6-44db-9358-58a0448a6b8a"
+                LastKnownName="Dynamic"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="374a453f-510b-4937-b28f-f559a8252df8"
+            name="call_press"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="90c62f0b-2567-4c61-9b6e-1115174980df"
+                LastKnownName="bool"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6f7bd9ec-e9e6-4720-a1af-de86e986b971"
+            name="control_press"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="90c62f0b-2567-4c61-9b6e-1115174980df"
+                LastKnownName="bool"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bcc947ef-bebd-48f1-a69c-0796252a888f"
+            name="time"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="b8111f59-a7ec-4832-b267-adc2167c3346"
+                LastKnownName="int"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="05a29b74-2851-431f-b245-68ee1af041c1"
+            name="timer1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="56dce418-3a6f-4dde-96da-b273d0a067d1"
+                LastKnownName="Timer"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="85bdc0ea-9172-4fe3-aeca-12d8e134593f"
+            name="pictureBox1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="123d1833-eb2a-4483-bdc8-43be49072e36"
+                LastKnownName="PictureBox"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a750f716-a8e5-424f-be05-80b8b20bd04e"
+            name="richTextBox_Display"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="75f572ad-69d9-48ed-9d7b-67a78923ff7b"
+                LastKnownName="RichTextBox"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="77331eec-c810-475e-8a18-59e98b4365c7"
+            name="button_Call"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="c9bd011f-97cd-4d38-b952-e4c055aa76e2"
+                LastKnownName="Button"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7b6e07dd-92c7-4941-89de-cc6eafc13d53"
+            name="butt_Control"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="c9bd011f-97cd-4d38-b952-e4c055aa76e2"
+                LastKnownName="Button"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4e95dc1d-9df8-4946-b931-6eb555c63457"
+            name="button_0"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="c9bd011f-97cd-4d38-b952-e4c055aa76e2"
+                LastKnownName="Button"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="fdee4555-d4d1-4dea-bd8c-5fc50d6e7bc3"
+            name="button_1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="c9bd011f-97cd-4d38-b952-e4c055aa76e2"
+                LastKnownName="Button"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="65a13a4c-5ae4-41e1-b5f8-fffb5a5d8fff"
+            name="button_2"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="c9bd011f-97cd-4d38-b952-e4c055aa76e2"
+                LastKnownName="Button"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="cca85305-2342-4b9f-9416-6fab05fe0226"
+            name="button_3"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="c9bd011f-97cd-4d38-b952-e4c055aa76e2"
+                LastKnownName="Button"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6f908a27-ebaf-488a-a553-69020961f401"
+            name="button_4"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="c9bd011f-97cd-4d38-b952-e4c055aa76e2"
+                LastKnownName="Button"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="34cc739b-8751-4771-9816-7af113be9adc"
+            name="button_5"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="c9bd011f-97cd-4d38-b952-e4c055aa76e2"
+                LastKnownName="Button"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="26514294-59b5-4d26-8fa6-267f605ea2bd"
+            name="button_6"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="c9bd011f-97cd-4d38-b952-e4c055aa76e2"
+                LastKnownName="Button"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c315a555-4231-4663-bf8b-8238c8b4e418"
+            name="button_7"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="c9bd011f-97cd-4d38-b952-e4c055aa76e2"
+                LastKnownName="Button"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3712706e-9be8-4dd1-8111-1a513e7dfbf6"
+            name="button_8"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="c9bd011f-97cd-4d38-b952-e4c055aa76e2"
+                LastKnownName="Button"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c468f604-bb1c-4e44-9461-30594e8b9f06"
+            name="button_9"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="c9bd011f-97cd-4d38-b952-e4c055aa76e2"
+                LastKnownName="Button"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b1478efb-5d40-42f2-bdb2-6190f9dce227"
+            name="To_factory_settings"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="48fde0d4-9926-4424-a0c2-12033314d25b"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d9b540b3-f0ad-4a28-bf83-153036e963be"
+                      LastKnownName="void"
+                      LastKnownLocation="Code_lock_using.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b24697bd-5543-4906-96c5-56c80d84991a"
+            name="Open_lock"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="20575312-b8d6-4386-8066-b40705af888e"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d9b540b3-f0ad-4a28-bf83-153036e963be"
+                      LastKnownName="void"
+                      LastKnownLocation="Code_lock_using.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="bad5a823-da4a-4fd8-a8b3-f0606a258c74"
+            name="Wrong_input"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cec6cfda-291e-4a1a-8398-8d57125aae51"
+                  name="string"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="456e9a7c-837d-4741-afcf-52d004931a83"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d9b540b3-f0ad-4a28-bf83-153036e963be"
+                      LastKnownName="void"
+                      LastKnownLocation="Code_lock_using.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3a9269e0-be09-49ab-a6f4-9570b549844d"
+            name="Successfull_password"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0eb292c4-9197-4e91-b128-ad08798ff59b"
+                  name="string"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="61562f3a-2ec8-4910-a710-5b6b85d4ce11"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d9b540b3-f0ad-4a28-bf83-153036e963be"
+                      LastKnownName="void"
+                      LastKnownLocation="Code_lock_using.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7a9f64df-ce7a-45ad-b021-62772097c348"
+            name="Changing_password"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4482f70a-72df-4a0f-a031-23bcb45915f2"
+                  name="string"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6f300e27-0e56-4e06-bc8a-79ebd0b9f342"
+                  name="int[]"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="48329819-78e8-445b-b5b5-b944193ec187"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d9b540b3-f0ad-4a28-bf83-153036e963be"
+                      LastKnownName="void"
+                      LastKnownLocation="Code_lock_using.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="efff51ed-fd46-4680-9702-17fa058f1ddc"
+            name="If_close"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dd3ea40e-fc31-4f42-8f35-b326b539a13b"
+                  name="int"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c27eda3b-f583-4ba4-8174-dec78c27fae5"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d9b540b3-f0ad-4a28-bf83-153036e963be"
+                      LastKnownName="void"
+                      LastKnownLocation="Code_lock_using.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="74237ce0-3c6e-45cd-9038-ccbcfe222f6d"
+            name="If_open"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0a9c1538-1ce5-4859-a7ba-8b891b135f84"
+                  name="int"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aaddfccc-4e27-43f4-a7ad-5de681d8e87f"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d9b540b3-f0ad-4a28-bf83-153036e963be"
+                      LastKnownName="void"
+                      LastKnownLocation="Code_lock_using.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="99f6e866-4926-401f-814a-4b1e47181908"
+            name="Action_buttons0_9"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c274c069-3c63-4baa-9c9e-8627c0dd34de"
+                  name="int"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="74f9018b-7ad7-4c13-ba42-60775d4c9a66"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d9b540b3-f0ad-4a28-bf83-153036e963be"
+                      LastKnownName="void"
+                      LastKnownLocation="Code_lock_using.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ee395448-955b-4bb9-bd3d-f9c47dbfd1ec"
+            name="Panel1"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e656b1e0-beb6-4874-9bfa-e0b80bd8b75b"
+        name="Panel2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="bc1cae51-058b-4aff-81b5-fdbb2fb32a6e"
+            isDerived="false"
+            sourceEndRoleName="Panel2"
+            targetEndRoleName="Panel1"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="2cf81eb7-271e-4473-ad3f-1434a371379f"
+              LastKnownName="Panel1"
+              LastKnownLocation="Code_lock_using.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6072a64c-8a8b-4e88-92e0-bb59dd86fb5a"
+                  name="Panel2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4ad436f6-899a-4a26-94e1-789bdd18c138"
+                  name="Panel1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="b52d7cc7-6ddf-4010-8d0f-af61c6e626e9"
+            name="Panel1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="9bcf64f8-0652-4efd-844a-7c67576ec561"
+                LastKnownName="form"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1cd5a484-e860-4f63-b1a7-fee638e56a79"
+            name="Open_button"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="c9bd011f-97cd-4d38-b952-e4c055aa76e2"
+                LastKnownName="Button"
+                LastKnownLocation="Code_lock_using.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b5517d3d-6b25-4279-bc50-33b8a23fa238"
+            name="Open_button_Click"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6b018ce0-4d23-43cb-9024-41ba63626dd6"
+                  name="object"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f1b67019-ed4e-4072-9189-e75108cb7673"
+                  name="EventArgs"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2c498e70-76c7-4ec0-ba01-4ecf31a68fba"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="d9b540b3-f0ad-4a28-bf83-153036e963be"
+                      LastKnownName="void"
+                      LastKnownLocation="Code_lock_using.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ba215eee-ba15-41ec-9a72-6a2aa954d21d"
+            name="Panel2"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="90c62f0b-2567-4c61-9b6e-1115174980df"
+        name="bool" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="6baf866a-dc47-4ee9-aee9-b07f6ddd3589"
+        name="SoundPlayer" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="d9b540b3-f0ad-4a28-bf83-153036e963be"
+        name="void" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="ad99eafe-c3c2-4c77-b838-0f7b8e1d1aa5"
+        name="int[]" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="fc3a7341-f573-4d71-afa1-c6c259ce70f7"
+        name="Soundplayer" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="adbad8a5-d1fd-4a6a-b273-0283d4853449"
+        name="List&lt;int&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="b8111f59-a7ec-4832-b267-adc2167c3346"
+        name="int" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="a13181df-1d3c-465b-baca-9f19e3718093"
+        name="IContainer" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="56dce418-3a6f-4dde-96da-b273d0a067d1"
+        name="Timer" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="123d1833-eb2a-4483-bdc8-43be49072e36"
+        name="PictureBox" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="75f572ad-69d9-48ed-9d7b-67a78923ff7b"
+        name="RichTextBox" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="c9bd011f-97cd-4d38-b952-e4c055aa76e2"
+        name="Button" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="9bcf64f8-0652-4efd-844a-7c67576ec561"
+        name="form" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

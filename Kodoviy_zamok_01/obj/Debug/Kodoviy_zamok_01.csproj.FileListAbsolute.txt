@@ -1,0 +1,71 @@
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe.config
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.pdb
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.csprojResolveAssemblyReference.cache
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.Form1.resources
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.Properties.Resources.resources
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.csproj.GenerateResource.Cache
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.exe
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.pdb
+g:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe.config
+g:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.exe
+g:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.pdb
+E:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe.config
+E:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.exe
+E:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.pdb
+E:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe
+E:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.pdb
+E:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.csprojResolveAssemblyReference.cache
+E:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.Form1.resources
+E:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.Properties.Resources.resources
+E:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.csproj.GenerateResource.Cache
+g:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe
+g:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.pdb
+g:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.csprojResolveAssemblyReference.cache
+g:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.Form1.resources
+g:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.Properties.Resources.resources
+g:\ООП\Курсовая\Кодовый замок 03\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.csproj.GenerateResource.Cache
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 04\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe.config
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 04\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.exe
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 04\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.pdb
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 04\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 04\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.pdb
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 04\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.csprojResolveAssemblyReference.cache
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 04\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.Form1.resources
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 04\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.Properties.Resources.resources
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 04\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.csproj.GenerateResource.Cache
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 5\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe.config
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 5\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.exe
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 5\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.pdb
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 5\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 5\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.pdb
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 5\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.Form1.resources
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 5\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.Properties.Resources.resources
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 5\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.csproj.GenerateResource.Cache
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок 5\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.BackDoorPanel.resources
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок почти релиз\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe.config
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок почти релиз\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.exe
+d:\2 курс (1 полусеместр)\ООП\Курсовая\Кодовый замок почти релиз\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.pdb
+E:\Лаборотория А-2\Кодовый замок почти релиз\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe.config
+E:\Лаборотория А-2\Кодовый замок почти релиз\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.exe
+E:\Лаборотория А-2\Кодовый замок почти релиз\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.pdb
+E:\Лаборотория А-2\Кодовый замок почти релиз\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe
+E:\Лаборотория А-2\Кодовый замок почти релиз\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.pdb
+E:\Лаборотория А-2\Кодовый замок почти релиз\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.csprojResolveAssemblyReference.cache
+E:\Лаборотория А-2\Кодовый замок почти релиз\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.BackDoorPanel.resources
+E:\Лаборотория А-2\Кодовый замок почти релиз\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.Form1.resources
+E:\Лаборотория А-2\Кодовый замок почти релиз\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.Properties.Resources.resources
+E:\Лаборотория А-2\Кодовый замок почти релиз\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.csproj.GenerateResource.Cache
+E:\Лаборотория А-2\Кодовый замок передел\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe.config
+E:\Лаборотория А-2\Кодовый замок передел\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.exe
+E:\Лаборотория А-2\Кодовый замок передел\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.pdb
+E:\Лаборотория А-2\Кодовый замок передел\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe
+E:\Лаборотория А-2\Кодовый замок передел\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.pdb
+E:\Лаборотория А-2\Кодовый замок передел\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.csprojResolveAssemblyReference.cache
+E:\Лаборотория А-2\Кодовый замок передел\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.Properties.Resources.resources
+E:\Лаборотория А-2\Кодовый замок передел\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.csproj.GenerateResource.Cache
+E:\Лаборотория А-2\Кодовый замок передел\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.Panel2.resources
+E:\Лаборотория А-2\Кодовый замок передел\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.Panel1.resources
+I:\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\bin\Debug\Kodoviy_zamok_01.exe.config
+I:\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.exe
+I:\готовое\Kodoviy_zamok_01\Kodoviy_zamok_01\obj\Debug\Kodoviy_zamok_01.pdb
